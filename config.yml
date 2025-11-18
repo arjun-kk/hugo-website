@@ -1,11 +1,11 @@
 baseURL: "https://arjun-kk.github.io" 
 title: Arjun Krishna Kumar
+paginate: 20
 theme: PaperMod
 
 enableInlineShortcodes: true
 enableRobotsTXT: true
-pagination:
-  pagerSize: 20
+
 
 taxonomies:
     tag: tags
@@ -50,7 +50,6 @@ params:
     ShowBreadCrumbs: false
     ShowCodeCopyButtons: true
     ShowAllPagesInArchive: false
-    MainSections: ["books","courses","papers","data"]
     ShowToc: false
     disableScrollToTop: true
     TocOpen: true
@@ -114,6 +113,12 @@ params:
 
     assets:
         disableScrollBarStyle: true
+        disableScrollBarStyle: true
+        favicon: "/favicon.ico"
+        favicon16x16: "/favicon-16x16.png"
+        favicon32x32: "/favicon-32x32.png"
+        apple_touch_icon: "/apple-touch-icon.png"
+        mask_icon: "/safari-pinned-tab.svg"
     cover:
         hiddenInList: false
         hiddenInSingle: true
