@@ -7,6 +7,7 @@ enableRobotsTXT: true
 pagination:
   pagerSize: 20
 
+
 taxonomies:
     tag: tags
 
@@ -93,7 +94,7 @@ params:
         - name: orcid
           url: https://orcid.org/0009-0000-4779-2031
         - name: philpeople
-          url: https://philpeople.org/profiles/arjun-krishna-kumar 
+          url: https://philpeople.org/profiles/arjun-krishna-kumar
         #- name: Zoom
         #  url: https://www.zoom.us/my/igelfeld
         #- name: Location
@@ -116,11 +117,12 @@ params:
     assets:
         disableHLJS: true
         disableScrollBarStyle: true
-        favicon: "/favicon.ico"
-        favicon16x16: "/favicon-16x16.png"
-        favicon32x32: "/favicon-32x32.png"
-        apple_touch_icon: "/apple-touch-icon.png"
-        mask_icon: "/safari-pinned-tab.svg"
+
+        favicon: "/philosopher.png"
+        favicon16x16: "/philosopher.png"
+        favicon32x32: "/philosopher.png"
+        apple_touch_icon: "/philosopher.png"
+        mask_icon: "/philosopher.png"
     cover:
         hiddenInList: false
         hiddenInSingle: true
