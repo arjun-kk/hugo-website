@@ -50,7 +50,6 @@ params:
     ShowBreadCrumbs: false
     ShowCodeCopyButtons: true
     ShowAllPagesInArchive: false
-    MainSections: ["books","courses","papers","data"]
     ShowToc: false
     disableScrollToTop: true
     TocOpen: true
@@ -93,6 +92,8 @@ params:
           url: mailto:arjun948@gmail.com
         - name: orcid
           url: https://orcid.org/0009-0000-4779-2031
+        - name: philpeople
+          url: https://philpeople.org/profiles/arjun-krishna-kumar 
         #- name: Zoom
         #  url: https://www.zoom.us/my/igelfeld
         #- name: Location
@@ -113,7 +114,13 @@ params:
         #  url: https://bsky.app/profile/pmichaillat.bsky.social
 
     assets:
+        disableHLJS: true
         disableScrollBarStyle: true
+        favicon: "/favicon.ico"
+        favicon16x16: "/favicon-16x16.png"
+        favicon32x32: "/favicon-32x32.png"
+        apple_touch_icon: "/apple-touch-icon.png"
+        mask_icon: "/safari-pinned-tab.svg"
     cover:
         hiddenInList: false
         hiddenInSingle: true
