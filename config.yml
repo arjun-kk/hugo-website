@@ -93,6 +93,8 @@ params:
           url: mailto:arjun948@gmail.com
         - name: orcid
           url: https://orcid.org/0009-0000-4779-2031
+        - name: philpeople
+          url: https://philpeople.org/profiles/arjun-krishna-kumar
         #- name: Zoom
         #  url: https://www.zoom.us/my/igelfeld
         #- name: Location
