@@ -1,11 +1,11 @@
 baseURL: "https://arjun-kk.github.io" 
 title: Arjun Krishna Kumar
-paginate: 
- pagerSize: 20
 theme: PaperMod
 
 enableInlineShortcodes: true
 enableRobotsTXT: true
+pagination:
+  pagerSize: 20
 
 
 taxonomies:
